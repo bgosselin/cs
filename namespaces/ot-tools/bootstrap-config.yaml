@@ -40,4 +40,4 @@ data:
 
     # We use chroot to run the following commands in the host root (mounted as the /root volume in the container)
     echo "Installing conf"
-    chroot "${ROOT_MOUNT_DIR}" sudo touch /home/opentext.conf
+    chroot "${ROOT_MOUNT_DIR}" sudo touch /home/ot.conf
